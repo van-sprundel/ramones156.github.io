@@ -1,4 +1,4 @@
-base_url = "https://ramones156.github.io/personal-page/"
+base_url = "https://ramones156.github.io/"
 compile_sass = true
 build_search_index = true
 
