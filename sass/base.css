@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font: 100% "Fira Sans", Helvetica, Arial, sans-serif;
+  background-color: #120d12;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p {
+  color: #fff;
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+}
+
+img,
+svg {
+  max-width: 100%;
+  display: block;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+  *,
+*::before,
+*::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/*# sourceMappingURL=base.css.map */

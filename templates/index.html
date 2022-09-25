@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+{%set birthdate = 992610000 %}
+<div class="landpage">
+    <div class="container">
+        <h1>Hey there, I'm Ramon!</h1>
+        <p>I'm a {{ now(timestamp=true) - birthdate-1970 | date(format="%Y") | int - 1970 }} year old Software Developer
+            from the Netherlands!</p>
+    </div>
+</div>
+{% endblock content %}

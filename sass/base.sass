@@ -1,0 +1,49 @@
+@import "vars.sass"
+@import "queries.sass"
+@import "typography.sass"
+
+*,
+*::before,
+*::after
+  box-sizing: border-box
+
+html,
+body
+  height: 100%
+
+body,
+h1,
+h2,
+h3,
+h4,
+p
+  color: $clr-text
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,ol
+  margin: 0
+
+body,p
+  line-height: 1.5
+
+img,
+svg
+  max-width: 100%
+  display: block
+
+@media (prefers-reduced-motion: reduce)
+  html:focus-within
+    scroll-behavior: auto
+  *,
+  *::before,
+  *::after
+    animation-duration: 0.01ms !important
+    animation-iteration-count: 1 !important
+    transition-duration: 0.01ms !important
+    scroll-behavior: auto !important

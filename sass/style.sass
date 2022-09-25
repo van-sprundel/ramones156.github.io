@@ -1,0 +1,90 @@
+@import "base.sass"
+@import "vars.sass"
+@import "blog_post.sass"
+html,
+body
+  font: 100% $font-stack-primary
+  background-color: $clr-dark-shades
+
+ul, ol
+  list-style: none
+  padding: 0
+
+a
+  color: $clr-text
+  text-decoration: none
+
+a:hover
+  svg
+    fill: $clr-main-brand
+
+  &, h2
+    color: $clr-main-brand
+    transition-duration: $transition-duration
+
+nav
+  list-style: none
+  display: flex
+  justify-content: space-between
+  padding: 0.125rem 2rem
+  align-items: center
+  background-color: $clr-darker-shades
+  a
+    padding: 1rem
+    margin: 1rem 0
+
+  .navbar-item-right
+    float: right
+
+section
+  display: flex
+
+.container
+  max-width: 968px
+  margin: 1.5rem 25rem 1.5rem
+  padding: 0 1rem
+
+.center
+  text-align: left
+  margin-left: auto
+  margin-right: auto
+
+.list-center
+  margin-left: auto !important
+  margin-right: auto !important
+  max-width: 540px
+
+.snippet-container
+  max-width: 540px
+  padding: 0 1rem
+
+footer
+  position: sticky
+  top: 100%
+  justify-content: end
+  align-items: center
+  width: 100%
+  padding: 2rem 0
+  background-color: rgba($clr-main-brand, 0.05)
+
+  &
+    display: flex
+    padding: 1.875rem
+
+  .footer-links
+    display: flex
+
+    a
+      margin: 0 0.25rem
+
+svg
+  fill: $clr-white
+
+.landpage
+  height: 50%
+
+  .container
+    height: 100%
+    display: flex
+    justify-content: center
+    flex-direction: column

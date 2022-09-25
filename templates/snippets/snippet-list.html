@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container list-center">
+    <ul>
+        {% for page in section.pages %}
+        <li class="blog-post-item">
+            <a href="{{ page.permalink | safe }}">
+                <h2 class="blog-post-title">{{ page.title }}</h2>
+                <div class="blog-post-body">
+                    <div class="blog-post-information">
+                        <p class="sm">{{ page.date | date(format="%B %d, %Y") }}</p>
+                        {%if page.taxonomies.categories %}
+                        {% for category in page.taxonomies.categories%}
+                        <p>
+                            {%if category == "rust"%}
+                            🦀
+                            {%endif%}
+                        </p>
+                        {% endfor %}
+                        {% else %}
+                        <p>-</p>
+                        {% endif %}
+                        <p>{{page.reading_time}} minute read</p>
+                    </div>
+                    <div>
+                        <p>{{ page.description }}</p>
+                    </div>
+                </div>
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+{% endblock content %}

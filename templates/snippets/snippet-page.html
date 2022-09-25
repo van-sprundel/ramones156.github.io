@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="snippet-container">
+    <h1 class="title">
+        {{ page.title }}
+    </h1>
+    <p class="sm">{{ page.date | date(format="%B %d, %Y") }} - {{page.reading_time}} minute read</p>
+    <p class="body">{{ page.content | safe }}</p>
+</div>
+{% endblock content %}
