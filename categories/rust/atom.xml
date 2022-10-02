@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title> - rust</title>
+	<link href="https://ramones156.github.io/categories/rust/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://ramones156.github.io/"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2022-09-20T00:00:00+00:00</updated>
+	<id>https://ramones156.github.io/categories/rust/atom.xml</id>
+	<entry xml:lang="en">
+		<title>My first post</title>
+		<published>2022-09-20T00:00:00+00:00</published>
+		<updated>2022-09-20T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://ramones156.github.io/snippets/first/" type="text/html"/>
+		<id>https://ramones156.github.io/snippets/first/</id>
+		<content type="html">&lt;p&gt;This is my first blog post!&lt;&#x2F;p&gt;
+</content>
+	</entry>
+</feed>

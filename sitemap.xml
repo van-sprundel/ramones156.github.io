@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://ramones156.github.io/</loc>
+    </url>
+    <url>
+        <loc>https://ramones156.github.io/categories/</loc>
+    </url>
+    <url>
+        <loc>https://ramones156.github.io/categories/rust/</loc>
+    </url>
+    <url>
+        <loc>https://ramones156.github.io/showcase/</loc>
+    </url>
+    <url>
+        <loc>https://ramones156.github.io/showcase/check-bevy/</loc>
+        <lastmod>2022-10-02</lastmod>
+    </url>
+    <url>
+        <loc>https://ramones156.github.io/snippets/</loc>
+    </url>
+    <url>
+        <loc>https://ramones156.github.io/snippets/first/</loc>
+        <lastmod>2022-09-20</lastmod>
+    </url>
+    <url>
+        <loc>https://ramones156.github.io/snippets/second/</loc>
+        <lastmod>2022-09-21</lastmod>
+    </url>
+</urlset>
